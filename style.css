@@ -69,3 +69,7 @@ input {
     color: #1f505d;
     border-radius: 5px;
 }
+
+.error {
+    color: red;
+}
