@@ -28,7 +28,7 @@ include __DIR__ . '/functions.php';
                 </div>
                 <div class="box">
                     <button id="send" class="btn" type="submit">Genera</button>
-                    <button id="reset" class="btn" type="reset">Annulla</button>
+                    <a id="reset" class="btn" href="index.php">Annulla</a>
                 </div>
             </form>
 

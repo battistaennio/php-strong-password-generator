@@ -43,5 +43,5 @@ if (isset($_GET['pw-length'])) {
     }
     //altrimenti messaggio iniziale
 } else {
-    $password = 'Generare una password di lunghezza compresa fra 8 e 32 caratteri';
+    $password = 'Genera una password di lunghezza compresa fra 8 e 32 caratteri';
 }
