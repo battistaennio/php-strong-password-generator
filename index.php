@@ -14,8 +14,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>strong password generator</h1>
+        <h2>Genera una password sicura</h2>
+
+        <div id="form-container">
+            <form action="index.php" method="GET">
+                <div class="box">
+                    <label for="pw">Lunghezza password:</label>
+                    <input type="number" name="pw-length" id="pw">
+                </div>
+                <div class="box">
+                    <button id="send" class="btn" type="submit">Genera</button>
+                    <button id="reset" class="btn" type="reset">Annulla</button>
+                </div>
+            </form>
+
+            <div id="result">
+                <p>Generare una password di lunghezza compresa fra 8 e 32 caratteri</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
